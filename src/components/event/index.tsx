@@ -4,7 +4,6 @@ import { Outlet } from "react-router";
 function Event() {
   return (
     <>
-      <div></div>
       <Outlet />
     </>
   );
