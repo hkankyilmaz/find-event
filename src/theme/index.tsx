@@ -8,9 +8,12 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
     overflow-x: hidden;
     background-color: #fafafa;
+    .MuiButtonBase-root{
+      font-family: 'Righteous', cursive;
+    }
   }
   
 `;

@@ -60,8 +60,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 500,
     },
     date: {
-      date: dayjs("2022-08-20").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-20"),
+      date: dayjs().format("DD-MM-YYYY"),
+      dateDatejs: dayjs(),
       openGate: "20:30",
       eventTime: "21:00",
     },
@@ -94,8 +94,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 1500,
     },
     date: {
-      date: dayjs("2022-08-25").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-25"),
+      date: dayjs().add(1, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(1, "day"),
       openGate: "21:30",
       eventTime: "22:00",
     },
@@ -128,19 +128,19 @@ export const InfoEvents: Events[] = [
       thirdCategory: 1500,
     },
     date: {
-      date: dayjs("2022-08-15").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-15"),
+      date: dayjs().add(10, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(12, "day"),
       openGate: "21:30",
       eventTime: "22:00",
     },
-    descriptionOne: `Teoman, Bayhan Prodüksiyon organizasyonu ile 7 Ekim Cuma akşamı Harbiye Açıkhava sahnesine konuk oluyor. Teoman konser biletiniz Passo'da.`,
-    descriptionTwo: `  - Protokol 1. sıra koltukları için +905324687086 numaralı telefonu arayabilirsiniz.
+    descriptionOne: `Metal tarihinin en büyük gruplarından Manowar, hafızalara kazınacak muhteşem bir konser için üç yıl aradan sonra yeniden Türkiye’ye geliyor!`,
+    descriptionTwo: `  - Katılımcılar/İzleyiciler Covid-19 kapsamında alınan kurallara uymalıdır.
 
-                       - Katılımcılar/İzleyiciler Covid-19 kapsamında alınan kurallara uymalıdır.
-
-                       - Etkinlik gişesi etkinlikten 2 saat önce açılır.
-
-                       - 6 yaş altı konsere alınmamaktadır. 6 ve 6 yaş üstü her yaştan katılımcı bilete tabidir.`,
+                       - Belirtilen saat kapı açılış saatidir.
+    
+                       - Festival alanına girecek herkes yaş sınırı olmadan bilete tabiidir.
+    
+                       - Etkinlikte 18 yaş altı bilet sahiplerine, bilet sahibi ebeveynlerinin refakat etmesi`,
     map: `https://www.google.com/maps/place/41%C2%B002'33.2%22N+28%C2%B059'35.8%22E/@41.042544,28.9910933,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x5bcf971ef3c21469!8m2!3d41.042544!4d28.993282`,
     image: manowarPic,
   },
@@ -164,8 +164,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 500,
     },
     date: {
-      date: dayjs("2022-08-19").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-19"),
+      date: dayjs().add(5, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(15, "day"),
       openGate: "21:30",
       eventTime: "22:00",
     },
@@ -203,8 +203,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 300,
     },
     date: {
-      date: dayjs("2022-09-19").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-09-19"),
+      date: dayjs().add(20, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(17, "day"),
       openGate: "21:30",
       eventTime: "22:00",
     },
@@ -239,8 +239,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 500,
     },
     date: {
-      date: dayjs("2022-09-28").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-09-28"),
+      date: dayjs().add(25, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(25, "day"),
       openGate: "19:30",
       eventTime: "19:00",
     },
@@ -285,8 +285,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 500,
     },
     date: {
-      date: dayjs("2022-08-25").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-25"),
+      date: dayjs().add(35, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(35, "day"),
       openGate: "18:30",
       eventTime: "19:00",
     },
@@ -331,8 +331,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 500,
     },
     date: {
-      date: dayjs("2022-08-25").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-25"),
+      date: dayjs().add(30, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(29, "day"),
       openGate: "18:30",
       eventTime: "19:00",
     },
@@ -379,8 +379,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 500,
     },
     date: {
-      date: dayjs("2022-08-25").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-25"),
+      date: dayjs().add(40, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(40, "day"),
       openGate: "18:30",
       eventTime: "19:00",
     },
@@ -429,8 +429,8 @@ export const InfoEvents: Events[] = [
       thirdCategory: 500,
     },
     date: {
-      date: dayjs("2022-08-25").format("DD-MM-YYYY"),
-      dateDatejs: dayjs("2022-08-25"),
+      date: dayjs().add(69, "day").format("DD-MM-YYYY"),
+      dateDatejs: dayjs().add(60, "day"),
       openGate: "16:30",
       eventTime: "17:00",
     },

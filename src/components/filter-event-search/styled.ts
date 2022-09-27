@@ -8,6 +8,7 @@ export const SubmitButton = styled.button`
   border: none;
   padding-left: ${(props) => props.theme.gutters.small};
   padding-right: ${(props) => props.theme.gutters.small};
+  font-family: "Righteous", cursive;
   cursor: pointer;
 
   &:hover {
@@ -19,6 +20,7 @@ export const Select = styled.select`
   width: 120px;
   margin-right: ${(props) => props.theme.gutters.smaller};
   margin-left: ${(props) => props.theme.gutters.smaller};
+  font-family: "Righteous", cursive;
 `;
 
 export const WrapperGrid = styled(Grid)`

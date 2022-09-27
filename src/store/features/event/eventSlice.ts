@@ -2,6 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { InfoEvents, Events } from "../../../data/data";
 import dayjs from "dayjs";
 import isBetween from "dayjs/plugin/isBetween.js";
+import { Console } from "console";
 
 let now = dayjs();
 dayjs.extend(isBetween);
@@ -49,25 +50,25 @@ const eventsSlice = createSlice({
         ) {
           switch (action.payload?.time) {
             case "Bugün":
-              if (event.date.dateDatejs.isSame(now)) {
+              if (event.date.dateDatejs.isSame(now, "day")) {
                 state.tempArr.push(event);
               }
 
               break;
             case "Bu Hafta":
-              if (event.date.dateDatejs.isBetween(now, endOfWeek)) {
+              if (event.date.dateDatejs.isBetween(now, endOfWeek, "day")) {
                 state.tempArr.push(event);
               }
 
               break;
             case "Yarın":
-              if (event.date.dateDatejs.isSame(tomorrow)) {
+              if (event.date.dateDatejs.isSame(tomorrow, "day")) {
                 state.tempArr.push(event);
               }
 
               break;
             case "Bu Ay":
-              if (event.date.dateDatejs.isBetween(now, endOfMonth)) {
+              if (event.date.dateDatejs.isBetween(now, endOfMonth, "day")) {
                 state.tempArr.push(event);
               }
 
@@ -76,9 +77,10 @@ const eventsSlice = createSlice({
               if (
                 action.payload.time[0] != null &&
                 action.payload.time[1] != null &&
-                dayjs().isBetween(
+                event.date.dateDatejs.isBetween(
                   dayjs(action.payload.time[0]),
-                  dayjs(action.payload.time[1])
+                  dayjs(action.payload.time[1]),
+                  "day"
                 )
               ) {
                 state.tempArr.push(event);

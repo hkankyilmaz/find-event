@@ -108,7 +108,6 @@ function SearchNavigate() {
               switch (isOpenPortal) {
                 case false:
                   setIsOpenPortal(true);
-
                   break;
                 case true:
                   setIsOpenPortal(false);

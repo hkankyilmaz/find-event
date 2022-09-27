@@ -11,12 +11,16 @@ export const StyleInput = styled.div`
   align-items: center;
   background-color: white;
   height: 32px;
+  :focus {
+    border: 1px solid orange;
+  }
   input {
     border: none;
     height: 100%;
     border-radius: ${(props) => props.theme.radius.small};
     padding: 0;
     padding-left: 5px;
+    font-family: "Righteous", cursive;
   }
   input:focus {
     outline: none;

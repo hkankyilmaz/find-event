@@ -36,7 +36,7 @@ function FilterEvent() {
   const param = useParams();
 
   const dispatch = useAppDispatch();
-
+  console.log(dayjs(valueOne).format("YYYY-MM-DD"));
   useEffect(() => {
     if (valueOne !== null && valueTwo !== null) {
       let date = `${dayjs(valueOne).format("DD/MM")}-${dayjs(valueTwo).format(
@@ -61,7 +61,7 @@ function FilterEvent() {
 
   const onSubmit = (data: IFormInput) => {
     if (data.time === "Tarih Aralığı") {
-      data.time = [valueOne, valueTwo];
+      data.time = [dayjs(valueOne), dayjs(valueTwo)];
     }
     if (location.pathname == "/") dispatch(filterEvent(data));
     if (!!param.category) {
