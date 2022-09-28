@@ -1,7 +1,6 @@
 # Find Event
 
 🔸 Find ticket that is concert,soccer or kind of entatrtaiment and buy it. <br>
-🔸 Create to-do list that include task, responsibility... <br>
 🔸 This web app built with using [React](https://reactjs.org/). <br>
 
 ## 💻 Setup <br>
