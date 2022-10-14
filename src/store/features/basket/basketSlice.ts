@@ -25,6 +25,9 @@ const basketSlice = createSlice({
       state.event.push(state.selectedEvent[0]);
       state.selectedEvent = [];
     },
+    removeEventBasket: (state, action: PayloadAction<Events>) => {
+      state.event = state.event.filter((item) => item.id !== action.payload.id);
+    },
     setSelectedEvent: (state, action: PayloadAction<Events>) => {
       state.selectedEvent.push(action.payload);
     },
@@ -35,5 +38,10 @@ const basketSlice = createSlice({
 });
 
 export default basketSlice.reducer;
-export const { setPrize, setEventBasket, setTicketCategory, setSelectedEvent } =
-  basketSlice.actions;
+export const {
+  setPrize,
+  setEventBasket,
+  setTicketCategory,
+  removeEventBasket,
+  setSelectedEvent,
+} = basketSlice.actions;

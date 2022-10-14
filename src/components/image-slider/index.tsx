@@ -47,17 +47,17 @@ const Slider: React.FC = () => {
     }
   };
 
-   setInterval(() => {
-     const sliderWidth: number = SliderRef.current!.clientWidth / slideLength;
-     activeSlideIndex++;
+  setInterval(() => {
+    const sliderWidth: number = SliderRef.current!.clientWidth / slideLength;
+    activeSlideIndex++;
 
-     if (activeSlideIndex === 7) {
-       activeSlideIndex = 0;
-     }
-     SliderRef.current!.style.transform = `translateX(-${
-       activeSlideIndex * sliderWidth
-     }px)`;
-   }, 3000);
+    if (activeSlideIndex === 7) {
+      activeSlideIndex = 0;
+    }
+    SliderRef.current!.style.transform = `translateX(-${
+      activeSlideIndex * sliderWidth
+    }px)`;
+  }, 6000);
 
   return (
     <SliderContainer>

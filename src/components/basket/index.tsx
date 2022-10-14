@@ -4,8 +4,13 @@ import { useAppSelector, useAppDispatch } from "../../store/hook";
 import NumberFormat from "react-number-format";
 import Button from "@mui/material/Button";
 import { StyledDiv } from "./styled";
+import { useNavigate } from "react-router-dom";
+import { removeEventBasket } from "../../store/features/basket/basketSlice";
 
 function Basket() {
+  const navigate = useNavigate();
+  const dispatch = useAppDispatch();
+
   React.useEffect(() => {
     console.log(event);
   });
@@ -221,6 +226,7 @@ function Basket() {
               </Grid>
               <Grid container item xs={6} md={12}>
                 <Button
+                  onClick={() => dispatch(removeEventBasket(item))}
                   size="small"
                   sx={{
                     color: "white",
@@ -251,6 +257,7 @@ function Basket() {
           >
             <Grid item xs="auto" md="auto">
               <Button
+                onClick={() => navigate("/")}
                 sx={{
                   marginBottom: "60px",
                   width: "150px",
