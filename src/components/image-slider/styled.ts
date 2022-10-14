@@ -70,11 +70,13 @@ export const SlideItem = styled.div<SlideItem>`
     justify-content: center;
     align-items: center;
     color: white;
+    cursor: pointer;
     &:hover {
       background-color: rgba(0, 0, 0, 0.5);
       width: 100%;
       height: 100%;
       opacity: 1;
+      cursor: pointer;
     }
   }
 

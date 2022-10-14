@@ -2,6 +2,7 @@
 
 🔸 Find ticket that is concert,soccer or kind of entatrtaiment and buy it. <br>
 🔸 This web app built with using [React](https://reactjs.org/). <br>
+🔸 Click and see live demo... [Here](https://find-event-phi.vercel.app/).
 
 ## 💻 Setup <br>
 
