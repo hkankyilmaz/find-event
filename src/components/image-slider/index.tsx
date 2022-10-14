@@ -9,8 +9,11 @@ import {
 import { useAppSelector } from "../../store/hook";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import SearchIcon from "@mui/icons-material/Search";
+import { useNavigate } from "react-router-dom";
 
 const Slider: React.FC = () => {
+  const navigate = useNavigate();
   const InfoVenets = useAppSelector((state) => state.events.InfoEvents);
   const slideLength = useAppSelector((state) => state.events.InfoEvents.length);
   const SliderRef = useRef<HTMLElement | null>(null);
@@ -57,7 +60,7 @@ const Slider: React.FC = () => {
     SliderRef.current!.style.transform = `translateX(-${
       activeSlideIndex * sliderWidth
     }px)`;
-  }, 6000);
+  }, 7000);
 
   return (
     <SliderContainer>
@@ -72,6 +75,19 @@ const Slider: React.FC = () => {
       <Slide<any> ref={SliderRef}>
         {InfoVenets.map((event) => (
           <SlideItem img={event.image}>
+            <div
+              onClick={() =>
+                navigate(
+                  `/event/${event.artist.replaceAll(" ", "-")}-${event.id}`
+                )
+              }
+              className="search"
+            >
+              <SearchIcon
+                sx={{ color: "white", fontSize: "50px", zIndex: "2" }}
+              />
+              <span style={{ zIndex: "2" }}>Detaylı İncele</span>
+            </div>
             <div>
               <p>{event.artist} </p>
             </div>

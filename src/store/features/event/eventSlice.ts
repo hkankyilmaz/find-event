@@ -78,8 +78,8 @@ const eventsSlice = createSlice({
                 action.payload.time[0] != null &&
                 action.payload.time[1] != null &&
                 event.date.dateDatejs.isBetween(
-                  dayjs(action.payload.time[0]),
-                  dayjs(action.payload.time[1]),
+                  dayjs(action.payload.time[0]).subtract(1, "day"),
+                  dayjs(action.payload.time[1]).add(1, "day"),
                   "day"
                 )
               ) {

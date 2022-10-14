@@ -65,7 +65,7 @@ export const InfoEvents: Events[] = [
       openGate: "20:30",
       eventTime: "21:00",
     },
-    descriptionOne: `Tan Taşçı, Bayhan Prodüksiyon organizasyonu  ile Harbiye Cemil Topuzlu Açıkhava Sahnesi'nde. Harbiye Açıkhava Konserleri'nin biletleri Passo'da.`,
+    descriptionOne: `Tan Taşçı, Bayhan Prodüksiyon organizasyonu  ile Harbiye Cemil Topuzlu Açıkhava Sahnesi'nde. istanbul Harbiye Açıkhava Konserleri'nin biletleri Passo'da.`,
     descriptionTwo: `  - Protokol 1. sıra koltukları için +905324687086 numaralı telefonu arayabilirsiniz.
 
                     - Katılımcılar/İzleyiciler Covid-19 kapsamında alınan kurallara uymalıdır.
@@ -99,7 +99,7 @@ export const InfoEvents: Events[] = [
       openGate: "21:30",
       eventTime: "22:00",
     },
-    descriptionOne: `Teoman, Bayhan Prodüksiyon organizasyonu ile 7 Ekim Cuma akşamı Harbiye Açıkhava sahnesine konuk oluyor. Teoman konser biletiniz Passo'da.`,
+    descriptionOne: `Teoman, Bayhan Prodüksiyon organizasyonu ile 7 Ekim Cuma akşamı istanbul Harbiye Açıkhava sahnesine konuk oluyor. Teoman konser biletiniz Passo'da.`,
     descriptionTwo: `  - Protokol 1. sıra koltukları için +905324687086 numaralı telefonu arayabilirsiniz.
 
                        - Katılımcılar/İzleyiciler Covid-19 kapsamında alınan kurallara uymalıdır.
@@ -133,7 +133,7 @@ export const InfoEvents: Events[] = [
       openGate: "21:30",
       eventTime: "22:00",
     },
-    descriptionOne: `Metal tarihinin en büyük gruplarından Manowar, hafızalara kazınacak muhteşem bir konser için üç yıl aradan sonra yeniden Türkiye’ye geliyor!`,
+    descriptionOne: `Metal tarihinin en büyük gruplarından Manowar, hafızalara kazınacak muhteşem bir konser için üç yıl aradan sonra yeniden izmir/Türkiye’ye geliyor!`,
     descriptionTwo: `  - Katılımcılar/İzleyiciler Covid-19 kapsamında alınan kurallara uymalıdır.
 
                        - Belirtilen saat kapı açılış saatidir.
@@ -257,7 +257,7 @@ export const InfoEvents: Events[] = [
 
                       - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır.
 
-                      - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir.
+                      - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet istanbul bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir.
 
                       - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. alınmayacaktır.
 
@@ -338,7 +338,7 @@ export const InfoEvents: Events[] = [
     },
     descriptionOne: `‘‘İbrahim Selim ile Bu Gece”  %100 Studio sahnesinde!
 
-                      İbrahim Selim’in renkli sunumu, birbirinden değerli konukları ve dinamik seyircisiyle dosta kahkaha, düşmana elem vermeye geliyor. “İbrahim Selim ile Bu Gece” her Pazartesi %100 Studio sahnesinde seyircileriyle buluşacak!
+                      İbrahim Selim’in renkli sunumu, birbirinden değerli konukları ve dinamik seyircisiyle dosta kahkaha, düşmana elem vermeye geliyor. “İbrahim Selim ile Bu Gece” her Pazartesi ,istanbul %100 Studio sahnesinde seyircileriyle buluşacak!
 
                       Her hafta sürpriz bir konuğun katılacağı programda müzikten, stand-up’a, mizahtan güncel konulara; kültürün her alanına doyacağız. Programlarımız tamamen organik ve glütensiz olup gönül rahatlığıyla tüketilebilir!`,
     descriptionTwo: `  - 6 yaş ve üzeri bilete tabidir. 6 yaş altı içeri alınmaz.

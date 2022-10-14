@@ -62,6 +62,22 @@ export const SlideItem = styled.div<SlideItem>`
   background-size: cover;
   background-position: center center;
 
+  .search {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+    }
+  }
+
   div {
     height: 15%;
     width: 100%;
