@@ -152,7 +152,14 @@ function FilterEvent() {
     );
   } else {
     return (
-      <WrapperGrid container style={{ padding: "0" }}>
+      <WrapperGrid
+        container
+        style={{
+          padding: "0",
+          transform: "translateY(-14px)",
+          zIndex: "999",
+        }}
+      >
         <SearchNavigate />
       </WrapperGrid>
     );

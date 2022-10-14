@@ -16,6 +16,7 @@ export const StyleInput = styled.div`
   }
   input {
     border: none;
+    width: 100%;
     height: 100%;
     border-radius: ${(props) => props.theme.radius.small};
     padding: 0;
