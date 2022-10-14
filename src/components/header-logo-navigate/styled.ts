@@ -5,6 +5,9 @@ export const LogoStyle = styled.span`
   font-size: ${(props) => props.theme.fontSizes.regularBig};
   font-weight: bold;
   color: orange;
+  font-family: "Chela One", cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
 `;
 
 export const CategoryStyle = styled.span`
